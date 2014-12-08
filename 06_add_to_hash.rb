@@ -19,7 +19,8 @@ person = {
 #   "BB"
 #
 #------- your code below here ---------
+p person[:nickname] = "BB"
+
+
 
 #------- your code above here ---------
-
-p person["nickname"]

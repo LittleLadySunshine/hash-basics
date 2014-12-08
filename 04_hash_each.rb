@@ -24,3 +24,33 @@ person = {
 #   "zip_code is 94104"
 #
 #------- your code below here ---------
+
+person["address"].each {|address, location| puts "#{address} is #{location}"}
+
+
+{
+  :street => "444 Borg Lane",
+  :city => "San Francisco",
+  :state => "CA",
+  :zip_code => 94104
+}.each {|address, location| puts "#{address} is #{location}"}
+
+address = :street
+location = "444 Borg Lane"
+"#{address} is #{location}"
+
+
+address = :city
+location = "San Francisco"
+"#{address} is #{location}"
+
+address = :state
+location = "CA"
+"#{address} is #{location}"
+
+address = :zip_code
+location = "94104"
+"#{address} is #{location}"
+
+
+}

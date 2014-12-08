@@ -20,6 +20,7 @@ person = {
 #
 #------- your code below here ---------
 
-#------- your code above here ---------
+p person["favorite_foods"] << "ethiopian"
 
-p person["favorite_foods"]
+
+#------- your code above here ---------
